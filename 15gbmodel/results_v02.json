@@ -1,0 +1,64 @@
+{
+ "raw": {
+  "best_epoch": 8,
+  "temperature": 0.997,
+  "n_test": 471,
+  "accuracy_3class": 0.5881104033970276,
+  "macro_f1_3class": 0.5803378759711492,
+  "planet_vs_fp_auc": 0.8801410105757932,
+  "auc_95ci": "0.83-0.92",
+  "n_planet_test": 148,
+  "n_fp_test": 92,
+  "n_cand_test": 231,
+  "cm": [
+   [
+    95,
+    37,
+    16
+   ],
+   [
+    50,
+    124,
+    57
+   ],
+   [
+    14,
+    20,
+    58
+   ]
+  ],
+  "scalars_only_macro_f1": 0.6068461696978878,
+  "scalars_only_planet_vs_fp_auc": 0.9076821386603995
+ },
+ "pdc": {
+  "best_epoch": 12,
+  "temperature": 1.056,
+  "n_test": 471,
+  "accuracy_3class": 0.5668789808917197,
+  "macro_f1_3class": 0.5650695090410754,
+  "planet_vs_fp_auc": 0.8871915393654524,
+  "auc_95ci": "0.84-0.93",
+  "n_planet_test": 148,
+  "n_fp_test": 92,
+  "n_cand_test": 231,
+  "cm": [
+   [
+    94,
+    29,
+    25
+   ],
+   [
+    41,
+    107,
+    83
+   ],
+   [
+    12,
+    14,
+    66
+   ]
+  ],
+  "scalars_only_macro_f1": 0.6337543070281361,
+  "scalars_only_planet_vs_fp_auc": 0.9322855464159812
+ }
+}
